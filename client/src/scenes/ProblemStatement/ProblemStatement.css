@@ -1,0 +1,98 @@
+/* ProblemStatement.css */
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Playfair:wght@300&family=Poppins&family=Rubik:wght@300;400;500;700&display=swap');
+*{
+  font-family: 'Mooli', sans-serif;
+  font-family: 'Playfair', serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+:root{
+  --primary-color:#007bff;
+}
+.container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left ;
+}
+.problem-statement-parent{
+  width: 87vw;
+  margin: 10px;
+  display:flex ;
+  justify-content: center;
+}
+.problem-container {
+  flex: 1 1;
+  max-width: 100%;
+  margin: 15px;
+  height: auto;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  max-height:200px ;
+  text-overflow: ellipsis;
+  box-shadow: 0 0 2px var(--primary-color);
+  height: 100px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  /* padding: 1%; */
+}
+.problem-statement{
+  padding: 10px;
+
+}
+.problem-container .more-button{
+  position: absolute;
+  bottom: 1px;
+  right: 3px;
+  padding: 2px;
+  background-color: #fff;
+}
+.problem-container p{
+  text-overflow: ellipsis;
+  height: inherit;
+  overflow: hidden;
+  text-align: left;
+  
+}
+.problem-statement {
+  padding: 10px;
+}
+.problem-container h3{
+  text-align: left;
+  margin: 5px;
+}
+
+.more-button {
+  cursor: pointer;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 5px;
+}
+
+.expanded .more-button {
+  display: inline; /* Show the more button when expanded */
+}
+
+.container-wrapper {
+  display: flex; /* Use flexbox to make them display side by side */
+}
+
+/* ************************* DARK MODE SRTYLING *********************************/
+.problem-statement-parent.dark-mode {
+  /* Define your styles for dark mode here */
+  background-color: #333; /* Change to your desired dark mode background color */
+  color: #fff; /* Change to your desired dark mode text color */
+  /* Add other styles as needed */
+}
+
+.dark-mode .container-wrapper {
+  background-color: #000; /* Use dark background color defined in theme */
+}
+
+.dark-mode .problem-container {
+  background-color: #000; /* Use dark background color defined in theme */
+  border: 1px solid #666; /* Use dark border color defined in theme */
+  /* Add any other dark mode styles for problem container */
+}

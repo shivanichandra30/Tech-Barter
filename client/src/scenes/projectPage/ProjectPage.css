@@ -1,0 +1,42 @@
+.file-sidebar {
+    background-color: #f6f8fa;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .file-item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .file-icon {
+    margin-right: 8px;
+  }
+  
+  .directory {
+    color: #0366d6;
+  }
+  
+  .file {
+    color: #24292e;
+  }
+  
+  .code-display {
+    padding: 20px;
+    min-height: 100vh;
+    border-left: 1px solid #ccc;
+  }
+  
+  .empty-message {
+    color: #999;
+  }
+  
+  pre {
+    background-color: #f6f8fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    white-space: pre-wrap;
+  }
+  
