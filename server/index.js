@@ -92,7 +92,7 @@ fs.watchFile("./data/problems.json", (curr, prev) => {
   updateDatabase();
 });
 
-const PORT = process.env.PORT || 6001;
+const PORT = process.env.PORT || 3001;
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
