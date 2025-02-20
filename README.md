@@ -11,4 +11,11 @@ Problem-Solving Challenges: Affiliated companies contribute problem statements, 
 
 Community Engagement: Encourages networking, discussions, and collaborations among developers.
 
-This makes Tech Barter an excellent platform for developers to learn, share, and grow, while also providing companies access to a talented pool of problem solvers! 🚀
+This makes Tech Barter an excellent platform for developers to learn, share, and grow, while also providing companies access to a talented pool of problem solvers! 
+
+To Run the project:
+Clone or Download the repo and make a .env file giving your MONGO_URL and JWT_SECRET
+-- Open the Client folder in the terminal and enter npm i to install all the dependancies needed to run the client
+-- Similarly do the same with Server folder and enter npm i in the terminal
+-- First start the Server using the command "nodemon server.js"
+-- Then go to the Client terminal and enter the command "npm run start" to start up the project.
