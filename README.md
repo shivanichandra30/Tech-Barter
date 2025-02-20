@@ -39,7 +39,7 @@ cd Server
 npm i
 ```
 ```bash
-nodemon server.js
+nodemon index.js
 ```
 
 ---
